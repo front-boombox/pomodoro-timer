@@ -1,0 +1,7 @@
+<div class="timer-holder">
+  <h1 class="title">My Pomodoro Timer</h1>
+  <div class="timer-body">
+    <span>{{ minutes }}</span> : <span>{{ seconds | number: '2.0' }}</span>
+  </div>
+  <button class="btn" type="button" (click)="togglePause()">{{ buttonLabel }}</button>
+</div>
