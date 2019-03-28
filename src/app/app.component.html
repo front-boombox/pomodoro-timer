@@ -1,4 +1,6 @@
 <div class="container">
     <app-timer #timer [minutes]="0" (countdownComplete)="onCountdownCompleted()"></app-timer>
     <p *ngIf="timer.isCompleted">{{ timer.isCompleted }}</p>
+    <hr>
+    <app-timers-table></app-timers-table>
 </div>

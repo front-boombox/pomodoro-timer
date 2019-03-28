@@ -1,0 +1,10 @@
+<div class="table-head">
+  <div class="cell">Task ID</div>
+  <div class="cell">Task name</div>
+  <div class="cell">Deliver by</div>
+  <div class="cell">Pomodoros</div>
+  <div class="cell">Actions</div>
+</div>
+<div class="table-body">
+  <app-timer-item *ngFor="let item of tasks; let i = index" [tasks]="tasks[i]"></app-timer-item>
+</div>
