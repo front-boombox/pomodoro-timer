@@ -3,7 +3,12 @@
     width: 100%;
     text-align: center;
     font-weight: 700;
+    color: #fff;
+    background: #38710c;
 }
 .cell{
-    flex-grow: 1;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
